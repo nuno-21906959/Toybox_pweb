@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>ToyBox (Feedback)</title>
+        <meta name="author" content="Nuno Rasteiro; Edith Cardoso">
+        <meta name="keywords" content="Toybox,brinquedos,crianças,jogos,loja online,webstore">
+        <meta name="description" content="Webstore para compra de brinquedos">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico"/> 
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="language" content="pt-br" />
+        <meta http-equiv="Content-Language" content="pt-br" />
+        <link rel="stylesheet" href="styles.css">   
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div class="wrapper">
+           <!-- HEADER -->
+           <header>
+            <div class="header-left">
+                <a href="index.html">
+                    <img class ="logo" src="img/logo.png"/>
+                </a>
+                <!--<li><a href="index.html"><span class="material-icons" id="home">home</span></a></li>-->
+            </div>
+            <nav class="header-center">
+                <ul> 
+                    <input type="text" id="search" placeholder="Procurar...">
+                </ul>
+            </nav>
+            <nav class="header-right">
+                <li><a  href="#" ><span class="material-icons" >person</span></a></li> 
+                <li><a  href="#"><span class="material-icons">shopping_cart</span></a></li>
+            </nav>
+        </header>
+
+        <header class ="header-2">
+                <ul>
+                <li><a  href="#">Novidades</a></li> 
+                <li><a  href="#">Promoções</a></li> 
+                <li><a  href="#">Produtos</a></li> 
+                </ul>
+        
+        </header>        
+        
+            <!-- CONTAINER TITULO -->
+            <section class="top-container">
+              <header class="showcase-info" id="pag-feedback">
+                  <h1>Deixa-nos o teu Feedback!</h1>
+              </header>
+            </section>
+
+            <!-- INFO POSTS -->
+
+            <section class="info-nobg">
+                <section class="vazio">
+
+                </section>
+
+                <article>
+                  <h2>Questionário</h2>
+                  <p>Dê uma cotação de 0 (😔) a 5 (🤩) aos diferentes aspetos do website.</p>
+                  <p>Todo o feedback é bem-vindo!</p>
+                  <form action="mailto:nunomrasteiro@gmail.com">
+                    
+                    <section class="feedback-container">
+                        <label for="points">Originalidade</label>
+                        <input type="range" id="originalidade" name="originalidade" min="0" max="5" required>
+                        <label for="points">Design</label>
+                        <input type="range" id="design" name="design" min="0" max="5" required>
+                        <label for="points">Conteúdo</label>
+                        <input type="range" id="conteudo" name="conteudo" min="0" max="5" required>
+                        <p>Escreva algo que ache pertinente (Opcional)</p>
+                        <textarea rows="4" columns="50" name="comentario" placeholder="Eu acho que..."></textarea>
+                        <p></p>
+                        <input class ="butao" type="submit" value="Enviar">
+                    </section>  
+                    
+                </form>       
+                </article>
+                <section class="vazio">
+
+                </section>
+            </section>
+
+            <!-- ASIDE FEEDBACK
+            <aside class ="sticky">
+                <a href="feedback.html">Deixa o teu feedback!</a>
+            </aside>
+            -->
+        
+             <!-- FOOTER -->
+             <footer>
+                <section class = "pre-footer">
+                    <div class="flex-container" id="pre-footer">
+                        <div class="flex-item-pre-footer">
+                            <h7>Pag. Técnicas</h7>
+                            <ul class= "pf-nav">
+                                <li><a href="sobreweb.html" >Sobre o website</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-item-pre-footer">
+                            <h7>Empresa</h7>
+                            <ul class= "pf-nav">
+                                <li><a href="sobre.html" >Sobre a empresa</a></li>
+                                <li><a href="eventos.html">Eventos</a></li>
+                                <li><a href="#" >Localização</a></li>
+                                <li><a href="#" >Emprego</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-item-pre-footer">
+                            <h7>Outros</h7>
+                            <ul class="pf-nav">
+                                <li><a href="feedback.html">Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-item-pre-footer" id="pf-newsletter">
+                            <h7>Newsletter</h7>
+                            <ul class="pf-nav">
+                                <li>
+                                    <form action="mailto:nunomrasteiro@gmail.com">
+                                    <input style = "height:30px;" type="text" placeholder="Email address" name="mail" required>
+                                    <input class ="butao" type="submit" value="Subscribe">
+                                </form>
+                                </li>
+                            </ul>
+                        </div>   
+                    </div>
+                </section>
+                <p>ULHT Programação Web (Entrega 1) &copy; 2021</p>
+            </footer>
+        
+          </div>
+    </body>
+</html>

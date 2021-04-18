@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>ToyBox</title>
+        <meta name="author" content="Nuno Rasteiro; Edith Cardoso">
+        <meta name="keywords" content="Toybox,brinquedos,crianças,jogos,loja online,webstore">
+        <meta name="description" content="Webstore para compra de brinquedos">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.ico"/> 
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="language" content="pt-br" />
+        <meta http-equiv="Content-Language" content="pt-br" />
+        <link rel="stylesheet" href="styles.css">   
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div class="wrapper">
+            
+            <!-- HEADER -->
+            <header>
+                <div class="header-left">
+                    <a href="index.html">
+                        <img class ="logo" src="img/logo.png"/>
+                    </a>
+                    <!--<li><a href="index.html"><span class="material-icons" id="home">home</span></a></li>-->
+                </div>
+                <nav class="header-center">
+                    <ul> 
+                        <input type="text" id="search" placeholder="Procurar...">
+                    </ul>
+                </nav>
+                <nav class="header-right">
+                    <li><a  href="#" ><span class="material-icons" >person</span></a></li> 
+                    <li><a  href="#"><span class="material-icons">shopping_cart</span></a></li>
+                </nav>
+            </header>
+
+            <header class ="header-2">
+                    <ul>
+                    <li><a  href="#">Novidades</a></li> 
+                    <li><a  href="#">Promoções</a></li> 
+                    <li><a  href="#">Produtos</a></li> 
+                    </ul>
+            
+            </header>        
+            <!-- CONTAINER PRODUTOS -->
+            <section class="top-container">
+              <header class="showcase">
+                <h1>Novos Produtos!</h1>
+                <a href="#" class="butao">Ver Mais!</a>
+              </header>
+            </section>
+
+            <!-- ASIDE FEEDBACK-->
+            <aside class ="sticky">
+                <a href="feedback.html">Deixa o teu feedback!</a>
+            </aside>
+        
+            <!-- CAIXAS PRODUTOS -->
+            <section class = "caixas"> 
+                <p class = "titulo">Marcas Mais Vendidas</p>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <a href="https://www.lego.com/en-us" target="_blank">
+                            <img class = "marca" src="img/marcas/logo-lego.jpg"></img>
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://play.hotwheels.com/" target="_blank">
+                            <img class = "marca" style="padding-top: 1.3em" src="img/marcas/logo-hotwheels.png"></img>
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://www.lolsurprise.com/" target="_blank">
+                            <img class = "marca" src="img/marcas/logo-lol.png"></img>
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://pawpatrolandfriends.com/" target="_blank">
+                            <img class = "marca" src="img/marcas/logo-pawpatrol.png"></img>
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://barbie.mattel.com/shop" target="_blank">
+                            <img class = "marca" src="img/marcas/logo-barbie.png"></img>
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="https://nerf.hasbro.com/pt-pt" target="_blank">
+                            <img class = "marca" src="img/marcas/logo-nerf.png"></img>
+                        </a>
+                    </div>
+                </div>         
+            </section>
+
+            <!-- INFO POSTS -->
+            <article class="info">
+              <figure>
+                  <img src="img/evento_1.jpg" alt="">
+                  <figcaption>Último Evento - <a href = "https://www.infobloom.com/what-is-face-painting.htm">FONTE</a></figcaption>
+              </figure>
+              <div>
+                <h2>Eventos</h2>
+                <p>Mensalmente fazemos eventos didáticos para crianças!</p>
+                <a href="eventos.html" class="butao">Ver Mais</a>
+              </div>
+            </article>
+
+            <!-- FOOTER -->
+            <footer>
+                <section class = "pre-footer">
+                    <div class="flex-container" id="pre-footer">
+                        <div class="flex-item-pre-footer">
+                            <h7>Pag. Técnicas</h7>
+                            <ul class= "pf-nav">
+                                <li><a href="sobreweb.html" >Sobre o website</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-item-pre-footer">
+                            <h7>Empresa</h7>
+                            <ul class= "pf-nav">
+                                <li><a href="sobre.html" >Sobre a empresa</a></li>
+                                <li><a href="eventos.html">Eventos</a></li>
+                                <li><a href="#" >Localização</a></li>
+                                <li><a href="#" >Emprego</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-item-pre-footer">
+                            <h7>Outros</h7>
+                            <ul class="pf-nav">
+                                <li><a href="feedback.html">Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex-item-pre-footer" id="pf-newsletter">
+                            <h7>Newsletter</h7>
+                            <ul class="pf-nav">
+                                <li>
+                                    <form action="mailto:nunomrasteiro@gmail.com">
+                                    <input style = "height:30px;" type="text" placeholder="Email address" name="mail" required>
+                                    <input class ="butao" type="submit" value="Subscribe">
+                                </form>
+                                </li>
+                            </ul>
+                        </div>   
+                    </div>
+                </section>
+                <p>ULHT Programação Web (Entrega 1) &copy; 2021</p>
+            </footer>
+          </div>
+    </body>
+</html>

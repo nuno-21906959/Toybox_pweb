@@ -65,7 +65,7 @@
   
   .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 50px;
     width: 100vw;
     min-height: 100vh;
   }
@@ -115,7 +115,7 @@
   .header-2{
       position:sticky;
       width: 100%;
-      margin: -1.3em auto auto auto;
+      margin: -50px auto auto auto;
       padding-top: 0;
       height: 2em;
       justify-content: center;
@@ -142,6 +142,7 @@
 
   /* CONTAINER TOPO */
   .top-container {
+    margin-top: -50px ;
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
@@ -218,6 +219,7 @@
   /* CAIXAS */
 
   .caixas {
+    margin-top: -50px;
     margin: 10px;
   }
 
